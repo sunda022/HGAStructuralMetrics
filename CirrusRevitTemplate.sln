@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirrusAddin", "CirrusAddin\CirrusAddin.csproj", "{18CADCE2-B89D-4385-904D-6099D8E6EF30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirrusAddin.Core", "CirrusAddin.Core\CirrusAddin.Core.csproj", "{5FD8D996-F312-4F05-BA41-51490B28007B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirrusAddin.UI", "CirrusAddin.UI\CirrusAddin.UI.csproj", "{6BBCDDBC-1720-4246-9793-4E617142791F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18CADCE2-B89D-4385-904D-6099D8E6EF30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CADCE2-B89D-4385-904D-6099D8E6EF30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CADCE2-B89D-4385-904D-6099D8E6EF30}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{18CADCE2-B89D-4385-904D-6099D8E6EF30}.Debug|x86.Build.0 = Debug|Any CPU
+		{18CADCE2-B89D-4385-904D-6099D8E6EF30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CADCE2-B89D-4385-904D-6099D8E6EF30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CADCE2-B89D-4385-904D-6099D8E6EF30}.Release|x86.ActiveCfg = Release|Any CPU
+		{18CADCE2-B89D-4385-904D-6099D8E6EF30}.Release|x86.Build.0 = Release|Any CPU
+		{5FD8D996-F312-4F05-BA41-51490B28007B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD8D996-F312-4F05-BA41-51490B28007B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD8D996-F312-4F05-BA41-51490B28007B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5FD8D996-F312-4F05-BA41-51490B28007B}.Debug|x86.Build.0 = Debug|Any CPU
+		{5FD8D996-F312-4F05-BA41-51490B28007B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD8D996-F312-4F05-BA41-51490B28007B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD8D996-F312-4F05-BA41-51490B28007B}.Release|x86.ActiveCfg = Release|Any CPU
+		{5FD8D996-F312-4F05-BA41-51490B28007B}.Release|x86.Build.0 = Release|Any CPU
+		{6BBCDDBC-1720-4246-9793-4E617142791F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBCDDBC-1720-4246-9793-4E617142791F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBCDDBC-1720-4246-9793-4E617142791F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6BBCDDBC-1720-4246-9793-4E617142791F}.Debug|x86.Build.0 = Debug|Any CPU
+		{6BBCDDBC-1720-4246-9793-4E617142791F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBCDDBC-1720-4246-9793-4E617142791F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBCDDBC-1720-4246-9793-4E617142791F}.Release|x86.ActiveCfg = Release|Any CPU
+		{6BBCDDBC-1720-4246-9793-4E617142791F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E60BA53-D976-4021-8CAA-32CB41A28FC2}
+	EndGlobalSection
+EndGlobal
