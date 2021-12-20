@@ -41,5 +41,11 @@ namespace CirrusAddin.UI.Views
         {
             Process.Start(@"https://viatechnik.com/");
         }
+        
+
+        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
+        }
     }
 }

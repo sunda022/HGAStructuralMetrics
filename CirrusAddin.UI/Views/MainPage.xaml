@@ -20,6 +20,15 @@
                 <local:BlankPage></local:BlankPage>
             </DataTemplate>
 
+            <DataTemplate DataType="{x:Type vm:GetBeamCountViewModel}">
+                <local:GetBeamCountPage></local:GetBeamCountPage>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type vm:GetColumnsViewModel}">
+                <local:GetColumnsPage></local:GetColumnsPage>
+            </DataTemplate>
+
+
         </ResourceDictionary>
 
     </Page.Resources>

@@ -60,6 +60,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLogic\MaterialTakeoffs.cs" />
     <Compile Include="Commands\ParamCommand.cs" />
     <Compile Include="Commands\RouteCommands.cs" />
     <Compile Include="Filters\Filters.cs" />
@@ -71,6 +72,8 @@
     <Compile Include="ViewModels\BasePageViewModel.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\BlankPageViewModel.cs" />
+    <Compile Include="ViewModels\GetBeamCountViewModel.cs" />
+    <Compile Include="ViewModels\GetColumnsViewModel.cs" />
     <Compile Include="ViewModels\MainPageViewModel.cs" />
   </ItemGroup>
   <ItemGroup>

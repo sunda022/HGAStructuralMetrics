@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace CirrusAddin.Core.RvtTasks
 {
+    //engine to run revit tasks in viewmodel - don't need to touch - running revit code and sending to revit
     public class RvtTask
     {
         private EventHandler handler;
@@ -15,6 +16,7 @@ namespace CirrusAddin.Core.RvtTasks
 
         public RvtTask()
         {
+            
             handler = new EventHandler();
 
             handler.EventCompleted += OnEventCompleted;

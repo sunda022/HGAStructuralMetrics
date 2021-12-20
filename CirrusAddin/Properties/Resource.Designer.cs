@@ -19,7 +19,7 @@ namespace CirrusAddin.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resource {
@@ -61,11 +61,20 @@ namespace CirrusAddin.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cirrus.
+        ///   Looks up a localized string similar to Structural CO2.
         /// </summary>
         internal static string RevitButtonName {
             get {
                 return ResourceManager.GetString("RevitButtonName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Test.
+        /// </summary>
+        internal static string RevitButtonName2 {
+            get {
+                return ResourceManager.GetString("RevitButtonName2", resourceCulture);
             }
         }
         
@@ -79,7 +88,7 @@ namespace CirrusAddin.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cirrus.
+        ///   Looks up a localized string similar to HGA Structural.
         /// </summary>
         internal static string RevitPanelName {
             get {
@@ -88,7 +97,7 @@ namespace CirrusAddin.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to VIATechnik.
+        ///   Looks up a localized string similar to HGA.
         /// </summary>
         internal static string RevitTabName {
             get {

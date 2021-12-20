@@ -9,6 +9,7 @@ using System.Linq;
 
 namespace CirrusAddin.Core.RvtTasks
 {
+    //Generic revit stuff...Nothing to do with a specific project... 
     public static class RvtUtil
     {
         public static Family GetFamily(Document doc, string familyName)
@@ -310,7 +311,14 @@ namespace CirrusAddin.Core.RvtTasks
             ElementWorksetFilter elementWorksetFilter = new ElementWorksetFilter(workset.Id, false);
             return elementCollector.WherePasses(elementWorksetFilter);
         }
-
+        public static FilteredElementCollector GetElementsByBuiltInCategory(Document doc, BuiltInCategory builtInCategory)
+        {
+            var collector = new FilteredElementCollector(doc);
+            var filterCategory = new ElementCategoryFilter(builtInCategory);
+            var filterNotSymbol = new ElementClassFilter(typeof(FamilySymbol), true);
+            var filter = new LogicalAndFilter(filterCategory, filterNotSymbol);
+            return collector.WherePasses(filter);
+        }
         public static Workset GetActiveWorkset(Document doc)
         {
             WorksetTable table = doc.GetWorksetTable();

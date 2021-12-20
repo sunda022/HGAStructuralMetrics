@@ -118,15 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RevitButtonName" xml:space="preserve">
-    <value>Cirrus</value>
+    <value>Structural CO2</value>
+  </data>
+  <data name="RevitButtonName2" xml:space="preserve">
+    <value>Test</value>
   </data>
   <data name="RevitButtonTooltip" xml:space="preserve">
     <value>Press button to proceed</value>
   </data>
   <data name="RevitPanelName" xml:space="preserve">
-    <value>Cirrus</value>
+    <value>HGA Structural</value>
   </data>
   <data name="RevitTabName" xml:space="preserve">
-    <value>VIATechnik</value>
+    <value>HGA</value>
   </data>
 </root>

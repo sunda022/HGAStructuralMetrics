@@ -2,7 +2,7 @@
 <RevitAddIns>
   <AddIn Type="Application">
     <Name>Cirrus</Name>
-    <Assembly>CirrusRevitTemplate/CirrusAddin.dll</Assembly>
+    <Assembly>C:\Users\acandrews\Documents\GitHub\HGAStructuralMetrics\Assemblies.Debug/CirrusAddin.dll</Assembly>
     <AddInId>d211a5c4-fbef-4f49-9a78-95f45e677fca</AddInId>
     <FullClassName>CirrusAddin.Main</FullClassName>
     <VisibilityMode>AlwaysVisible</VisibilityMode>
