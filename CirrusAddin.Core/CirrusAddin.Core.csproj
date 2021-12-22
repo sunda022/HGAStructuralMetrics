@@ -64,6 +64,7 @@
     <Compile Include="Commands\ParamCommand.cs" />
     <Compile Include="Commands\RouteCommands.cs" />
     <Compile Include="Filters\Filters.cs" />
+    <Compile Include="Helpers\CSVHelper.cs" />
     <Compile Include="Helpers\AsyncHelper.cs" />
     <Compile Include="Models\AddinDataProperties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
